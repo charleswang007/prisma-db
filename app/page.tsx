@@ -1,15 +1,15 @@
 import { db } from "@/lib/db";
 
 export default async function Home() {
-  // const tasks = await db.task.findMany();
+  const tasks = await db.task.findMany();
   // MySQL (Aiven), PostgreSQL (Neon), MongoDB (Atlas)
-  const tasks = await db.task.findMany({
-    where: {
-      title: {
-        contains: "Search"
-      }
-    }
-  });
+  // const tasks = await db.task.findMany({
+  //   where: {
+  //     title: {
+  //       contains: "Search"
+  //     }
+  //   }
+  // });
 
   return (
     <div>
