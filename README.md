@@ -2,6 +2,16 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Databases
+
+- MySQL (Aiven)
+- PostgreSQL (Neon)
+- MongoDB (Atlas)
+
+## Tutorial
+
+https://www.codewithantonio.com/projects/prisma-databases
+
 ## Getting Started
 
 First, run the development server:
